@@ -1,8 +1,210 @@
 <!DOCTYPE html>
-<title>Jessi's Page</title>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!--CSS Styles -->
+        <link rel="stylesheet" href="assets/css/styles.css" />
+
+        <!-- Favicons -->
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="assets/icons/JG3D-128px.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="assets/icons/JG3D-32px.png"
+        />
+        <!-- Animate CSS CDN -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <title>Jessi Holte | Portfolio</title>
+    </head>
+
+    <body>
+        <!-- Navbar -->
+        <nav>
+            <h1>JESSI G. HOLTE</h1>
+            <ul class="navigation">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="burger-menu" id="burger-menu">
+                <ion-icon class="bars" name="menu-outline"></ion-icon>
+            </button>
+        </nav>
+    
+        <!-- Hero Section -->
+        <section class="hero" id="about">
+            <img
+                src="assets/images/photo01.jpg"
+                alt="image"
+                loading="lazy"
+                class="hero-img"
+            />
+            <div class="bio">
+                <h2 class="bio-title">About Me</h2>
+                <p class="bio-text">
+                    Hello! I’m Jessi, a student at the University of Idaho pursuing a B.S. 
+                    in Virtual Technology & Design with a minor in Computer Science. 
+                    Originally from Post Falls, ID, I live on campus in Moscow, ID during the academic year.
+                    I’m an artist, programmer, and 3D generalist with experience in a wide variety of programs. 
+                    Thanks for looking at my portfolio—I hope you enjoy viewing my projects as much as I've enjoyed creating them!
+                </p>
+            </div>
+        </section>
+
+        <!-- More about -->
+        <section class="more-about">
+            <h2>More About Me</h2>
+            <p>
+                I have a passion for storytelling through game design and animation, and I love finding ways to utilize 
+                my broad experience to innovate in my creative work. 
+            </p>
+            <p>
+                My favorite part of any project is the problem-solving that comes after the concept design.
+                I love to sit down with an outlandish concept and figure out how to make it work exactly the way I want it to, 
+                regardless of technical limitations. 
+            </p>
+            <p>
+                I work best with a team of other passionate creators, and I'm able to fill many roles and pick up new skills 
+                on the fly in order to get a project done. I'm always looking for opportunities to gain more experience 
+                and learn new tools, techniques, and applications to add to my toolkit. 
+            </p>
+        </section>
+
+        <!-- Skills section -->
+        <section class="skills" id="skills">
+            <h2 class="skill-header">My Top Skills</h2>
+      
+            <div class="skills-wrapper">
+                <!-- <div class="first-set animate__animated animate__pulse"> -->
+                <div class="first-set">
+                    <img
+                        src="assets/icons/UnrealEngineLogo.svg"
+                        alt="Unreal Engine"
+                        loading="lazy"
+                        class="icon icon-card"
+                    />
+                    <img
+                        src="assets/icons/UnrealEngineLogo.svg"
+                        alt="Unreal Engine"
+                        loading="lazy"
+                        class="icon icon-card"
+                    />
+                    <img
+                        src="assets/icons/UnrealEngineLogo.svg"
+                        alt="Unreal Engine"
+                        loading="lazy"
+                        class="icon icon-card"
+                    />
+                </div>
+        
+                <div class="second-set">
+                    <img
+                        src="assets/icons/UnrealEngineLogo.svg"
+                        alt="Unreal Engine"
+                        loading="lazy"
+                        class="icon icon-card"
+                    />
+                    <img
+                        src="assets/icons/UnrealEngineLogo.svg"
+                        alt="Unreal Engine"
+                        loading="lazy"
+                        class="icon icon-card"
+                    />
+                    <img
+                        src="assets/icons/UnrealEngineLogo.svg"
+                        alt="Unreal Engine"
+                        loading="lazy"
+                        class="icon icon-card"
+                    />
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects section -->
+        <section class="projects" id="projects">
+            <h2 class="projects-title">Recent Projects</h2>
+            <div class="projects-container">
+                <div class="project-container project-card">
+                    <img
+                        src="assets/images/empty.png"
+                        alt="Convergence"
+                        loading="lazy"
+                        class="project-pic"
+                    />
+                    <h3 class="project-title">Project Genesis: The World of Urr</h3>
+                    <p class="project-details">
+                        Experience the world of Urr, a newly discovered alien world unlike anything you've ever seen. 
+                        Let us take you on a video tour, or download and explore yourself!
+                        Created in collaboration with Olivia Gentry and Zoe Squires.
+                    </p>
+                    <a href="#" target="_blank" class="project-link">Check it Out</a>
+                </div>
+                <div class="project-container project-card">
+                    <img
+                        src="assets/images/empty.png"
+                        alt="They Were Called Stars"
+                        loading="lazy"
+                        class="project-pic"
+                    />
+                    <h3 class="project-title">They Were Called Stars</h3>
+                    <p class="project-details">
+                        An animation created for the FALL48 Film Challenge 2023. 
+                        All assets were produced within 48 hours, including characters, environments, and animations.
+                        Created in collaboration with Seth Graham, Olivia Gentry, Andrew Cook, and Kaili Zablosky.
+                    </p>
+                    <a href="#" target="_blank" class="project-link">Check it Out</a>
+                </div>
+                <div class="project-container project-card">
+                    <img
+                        src="assets/images/empty.png"
+                        alt=""
+                        loading="lazy"
+                        class="project-pic"
+                    />
+                    <h3 class="project-title">Convergence: The Twisting Hive</h3>
+                    <p class="project-details">
+                        Created in collaboration with 
+                        Gordon Muhlestein, Jack Minten, and Zoe Squires, 
+                        Convergence is a multiplayer game in which you travel to four lands, 
+                        uncover their stories, and collect artifacts 
+                        in order to bring the worlds together. 
+                    </p>
+                    <a href="#" target="_blank" class="project-link">Check it Out</a>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Contact section -->
+    
+        <!-- Social accounts - Fixed to the right -->
+    
+        <!-- Scroll to top -->
+    
+        <!-- Footer section -->
+    
+        <!-- Website scripts -->
+        <script src="assets/js/app.js"></script>
+    
+        <!-- Ion icons scripts -->
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
+    </body>
 </html>
